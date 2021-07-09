@@ -9,27 +9,19 @@ poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'				#json pose coords folder
 imageFolder ='/media/cohogain/UUI/bigYOLO/35'					#images folder
 maskFolder ='/media/cohogain/UUI/bigYOLO/35seg/'				#segmentations folder
 result_folder ='/media/cohogain/UUI/bigYOLO/checkBox/'				#output folder to check labelling
-cocoFolder ='/home/cohogain/val2017/crowd/'					#coco dataset folder
 
 #sort filenames numerically
 img_entries = natsorted(os.listdir(imageFolder))
 mask_entries = natsorted(os.listdir(maskFolder))
-coco_entries  = natsorted(os.listdir(cocoFolder))
 
 N = 3
 count = 0
 index = 0
 
 for mask1, img1 in zip(mask_entries, img_entries):
-    #loops through coco dataset repeatedly
-    if(index == 19):
-        index = 0
-    coco = coco_entries[index]
-    index += 1
 
     img = cv2.imread((os.path.join(imageFolder,img1)))
     mask = cv2.imread((os.path.join(maskFolder,mask1)))
-    coco = cv2.imread((os.path.join(cocoFolder,coco)))
 
     armFront = armOut = armUp = none = False
     leftMost = leftMost1 = leftMost2 = leftMost3 = 432
@@ -87,10 +79,6 @@ for mask1, img1 in zip(mask_entries, img_entries):
                 if(j > rightMost3):
                     rightMost3 = j
           
-            if(mask[i,j,0] == 0 and mask[i,j,1] == 0 and mask[i,j,2] == 0):
-                result[i,j,0] = coco[i,j,0]
-                result[i,j,1] = coco[i,j,1]
-                result[i,j,2] = coco[i,j,2]
 
     print(str(os.path.join(imageFolder,str(img1))), end =" ")   
     if(armFront == True):
