@@ -5,19 +5,17 @@ import random
 from natsort import natsorted
 
 #filepaths
-poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'				#json pose coords folder
-imageFolder ='/media/cohogain/UUI/bigYOLO/35'					#images folder
-maskFolder ='/media/cohogain/UUI/bigYOLO/35seg/'				#segmentations folder
-result_folder ='/media/cohogain/UUI/bigYOLO/checkBox/'				#output folder to check labelling
+poseFolder =''								#json pose coords folder
+imageFolder =''								#images folder
+maskFolder =''								#segmentations folder
+result_folder =''							#output folder to check labelling
 
 #sort filenames numerically
 img_entries = natsorted(os.listdir(imageFolder))
 mask_entries = natsorted(os.listdir(maskFolder))
 
-N = 3
-count = 0
-index = 0
 
+count = 0
 for mask1, img1 in zip(mask_entries, img_entries):
 
     img = cv2.imread((os.path.join(imageFolder,img1)))
@@ -78,7 +76,6 @@ for mask1, img1 in zip(mask_entries, img_entries):
                     leftMost3 = j
                 if(j > rightMost3):
                     rightMost3 = j
-          
 
     print(str(os.path.join(imageFolder,str(img1))), end =" ")   
     if(armFront == True):

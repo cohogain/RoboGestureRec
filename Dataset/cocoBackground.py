@@ -4,9 +4,9 @@ import numpy as np
 from natsort import natsorted
 
 imageFolder =''							                                #images folder
-maskFolder =''				                                            #segmentations folder
-cocoFolder =''						                                    #coco dataset folder
-result_folder =''				                                        #output image folder 
+maskFolder =''				                                            		#segmentations folder
+cocoFolder =''						                                    	#coco dataset folder
+result_folder =''				                                        	#output image folder 
 
 img_entries = natsorted(os.listdir(imageFolder))
 mask_entries = natsorted(os.listdir(maskFolder))
