@@ -74,10 +74,10 @@ keypoints = np.zeros(shape=(51,1))
 keypoint_id = 0
 image_id = 0
 
-
-poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'
-imageFolder ='/media/cohogain/UUI/bigYOLO/35'
-result_folder ='/media/cohogain/UUI/bigYOLO/checkTestPose/'
+#filepaths
+poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'			#json pose coords folder
+imageFolder ='/media/cohogain/UUI/bigYOLO/35'				#images folder
+result_folder ='/media/cohogain/UUI/bigYOLO/checkTestPose/'		#output folder to check labelling
 
 #read in images and pose coordinates
 img_entries = natsorted(os.listdir(imageFolder))

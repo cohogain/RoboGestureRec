@@ -4,11 +4,12 @@ import numpy as np
 import random
 from natsort import natsorted
 
-poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'
-imageFolder ='/media/cohogain/UUI/bigYOLO/35'
-maskFolder ='/media/cohogain/UUI/bigYOLO/35seg/'
-result_folder ='/media/cohogain/UUI/bigYOLO/checkBox/'
-cocoFolder ='/home/cohogain/val2017/crowd/'
+#filepaths
+poseFolder ='/media/cohogain/UUI/bigYOLO/Pose1/35'				#json pose coords folder
+imageFolder ='/media/cohogain/UUI/bigYOLO/35'					#images folder
+maskFolder ='/media/cohogain/UUI/bigYOLO/35seg/'				#segmentations folder
+result_folder ='/media/cohogain/UUI/bigYOLO/checkBox/'				#output folder to check labelling
+cocoFolder ='/home/cohogain/val2017/crowd/'					#coco dataset folder
 
 #sort filenames numerically
 img_entries = natsorted(os.listdir(imageFolder))
