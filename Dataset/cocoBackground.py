@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 from natsort import natsorted
 
-imageFolder =''							                                #images folder
-maskFolder =''				                                            		#segmentations folder
+imageFolder =''							                                    #images folder
+maskFolder =''				                                            	#segmentations folder
 cocoFolder =''						                                    	#coco dataset folder
 result_folder =''				                                        	#output image folder 
 
