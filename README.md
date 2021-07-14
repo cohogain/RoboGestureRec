@@ -11,7 +11,7 @@ Pose estimation repo : https://github.com/jiajunhua/ildoonet-tf-pose-estimation
 Object Detection repo : https://github.com/wizyoung/YOLOv3_TensorFlow
 
 
-![alt text](https://github.com/cohogain/RoboGestureRec/blob/main/introImage.png)
+![alt text](https://github.com/cohogain/RoboGestureRec/blob/main/rsz_introimage.png)
 
 
 
