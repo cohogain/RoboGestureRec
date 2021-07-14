@@ -7,6 +7,7 @@ Comparing the use of pose estimation and object detection to perform gesture rec
 Both 'Openpose', human pose estimation algorithm and 'YoloV3', object detection algorithm are implemented using Tensorflow.
 
 Pose estimation repo : https://github.com/jiajunhua/ildoonet-tf-pose-estimation
+
 Object Detection repo : https://github.com/wizyoung/YOLOv3_TensorFlow
 
 
