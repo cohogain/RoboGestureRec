@@ -24,7 +24,6 @@ https://drive.google.com/drive/folders/1GEHBlKblf6MOj6l6uPikD92NkXQP0iLF?usp=sha
 
 YoloV3 data : yoloTrain.txt & yoloData.zip                                                                                                               
 OpenPose data : poseTrain.txt & poseData.zip
-
 COCO data: val2017.zip
 
 
