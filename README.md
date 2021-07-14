@@ -12,6 +12,7 @@ Object Detection repo : https://github.com/wizyoung/YOLOv3_TensorFlow
 
 
 ![alt text](https://github.com/cohogain/RoboGestureRec/blob/main/rsz_introimage.png)
+![alt text](https://github.com/cohogain/RoboGestureRec/blob/main/rsz_2result5.png)
 
 
 
