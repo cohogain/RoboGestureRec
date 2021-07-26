@@ -2,16 +2,14 @@
 
 **Description:**
 
-This project compares the use of pose estimation and object detection to perform gesture recognition in a RoboCup environment.
-
+This project compares the use of pose estimation and object detection to perform gesture recognition in a RoboCup environment.                                    
 Both 'Openpose', human pose estimation algorithm and 'YoloV3', object detection algorithm are implemented using Tensorflow.
 
 **Original Repos:**
 
 The repos used in this project are found below. Please follow the download instructions provided by these repos.
 
-Pose estimation repo : https://github.com/jiajunhua/ildoonet-tf-pose-estimation
-
+Pose estimation repo : https://github.com/jiajunhua/ildoonet-tf-pose-estimation                                                                                   
 Object Detection repo : https://github.com/wizyoung/YOLOv3_TensorFlow
 
 
@@ -27,7 +25,7 @@ Datasets were generated using UERoboCup (RoboCup scene generator : https://githu
 The data exported consists of coloured images, segmantic segmentations and robot joint image coordinates.
 
 Use **openposeData.py** to structure the data into the necessary format for openpose training.                                                          
-Similarly use **yoloData.py** to structure the data into the required yolov3 format for training.
+Similarly, use **yoloData.py** to structure the data into the required yolov3 format for training.
 
 The raw data and correctly formatted datasets can be found at the following link.
 
