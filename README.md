@@ -2,7 +2,7 @@
 
 **Description:**
 
-Comparing the use of pose estimation and object detection to perform gesture recognition in a RoboCup environment.
+This project compares the use of pose estimation and object detection to perform gesture recognition in a RoboCup environment.
 
 Both 'Openpose', human pose estimation algorithm and 'YoloV3', object detection algorithm are implemented using Tensorflow.
 
