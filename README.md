@@ -27,7 +27,9 @@ The data exported by this program consists of coloured images, segmantic segment
 Use **openposeData.py** to structure the data into the necessary format for openpose training.                                                          
 Similarly, use **yoloData.py** to structure the data into the required yolov3 format for training.
 
-The raw data and correctly formatted datasets can be found at the following link.
+The background of the images are converted to images taken from COCO 2014 validation set to create a more dynamic environment to achieve better machine learning. Use **cocoBackground.py** to complete this background conversion.
+
+The raw data, correctly formatted datasets and COCO val 2014 can be found at the following link.
 
 The data used can be found at the following Google Drive link: 
 https://drive.google.com/drive/folders/1GEHBlKblf6MOj6l6uPikD92NkXQP0iLF?usp=sharing
