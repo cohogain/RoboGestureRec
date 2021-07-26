@@ -22,7 +22,7 @@ Object Detection repo : https://github.com/wizyoung/YOLOv3_TensorFlow
 **Datasets:**
 
 The datasets used for training were generated using UERoboCup (RoboCup scene generator : https://github.com/TimmHess/UERoboCup).
-The data exported consists of coloured images, segmantic segmentations and robot joint image coordinates.
+The data exported by this program consists of coloured images, segmantic segmentations and robot joint image coordinates.
 
 Use **openposeData.py** to structure the data into the necessary format for openpose training.                                                          
 Similarly, use **yoloData.py** to structure the data into the required yolov3 format for training.
