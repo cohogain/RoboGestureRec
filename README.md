@@ -34,6 +34,6 @@ The raw data, correctly formatted datasets and COCO val 2014 can be found at the
 The data used can be found at the following Google Drive link: 
 https://drive.google.com/drive/folders/1GEHBlKblf6MOj6l6uPikD92NkXQP0iLF?usp=sharing
 
-
-
+**Future work:**
+Further work should be done on capturing real life images of the robots in a RoboCup environment. 
 
